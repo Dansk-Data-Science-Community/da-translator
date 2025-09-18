@@ -13,9 +13,17 @@ Can we train a relatively small (<=4B) model that performs English to Danish tra
   * https://huggingface.co/collections/sentence-transformers/parallel-sentences-datasets-6644d644123d31ba5b1c8785
 * GemmaX paper
   * https://arxiv.org/abs/2502.02481
+* Seed-X-PPO-7B
+  * https://huggingface.co/ByteDance-Seed/Seed-X-PPO-7B
 * Gemma Fine-tuning guide blog post
   * https://ai.google.dev/gemma/docs/core/huggingface_text_full_finetune
+  
 
-# Open Questions
+# Open Questions / Things to do
+* What is current SOTA for Eng->Da translation?
+  * Which benchmarks and metrics are commonly used?
+    * [Flores](https://huggingface.co/datasets/facebook/flores) 
+  * Evaluate GemmaX and Seed-X-PPO-7B
 * How is the quality of the parallel sentences? Do we need to do some filtering beforehand?
 * Many of these parallel sentences are fairly short. Does translation performance degrade for longer sentences?
+* ...
