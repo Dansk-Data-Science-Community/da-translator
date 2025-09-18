@@ -11,10 +11,14 @@ Can we train a relatively small (<=4B) model that performs English to Danish tra
 # Resources
 * Parallel sentences datasets
   * https://huggingface.co/collections/sentence-transformers/parallel-sentences-datasets-6644d644123d31ba5b1c8785
+* WMT24++ 
+  * https://huggingface.co/datasets/google/wmt24pp
 * GemmaX paper
   * https://arxiv.org/abs/2502.02481
 * Seed-X-PPO-7B
   * https://huggingface.co/ByteDance-Seed/Seed-X-PPO-7B
+  * https://arxiv.org/pdf/2507.13618
+  * Reports 81.42% Eng->Da BLEURT Score on Flores (Fig. 6)
 * Gemma Fine-tuning guide blog post
   * https://ai.google.dev/gemma/docs/core/huggingface_text_full_finetune
   
